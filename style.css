@@ -1,0 +1,92 @@
+body{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    font-family: "Charm", cursive;
+
+}
+.conteudo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.titulo{
+ text-align: left;
+ width: 100%;
+ font-size: 40px;
+}
+ .titulo span{
+   color: #e9e2e9;
+
+}
+.botao{
+  font-family: "chakra petch", sans-serif;
+  background-color: rgb(44, 0, 240);
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  font-size: 18px;
+  align-items: center;
+  width: 100%;
+  border-bottom: 4px solid #000000;
+  border-left: 4px solid  #6801dd;
+  border-right: 4px solid #8d62bd;
+  border-top: none;
+ 
+}
+.botao:first-child{
+    border-radius: 40px 40px 0 0;
+}
+ .botoes{
+    display: block;
+ }
+  .botao.ativo{
+  background-color: #f7059a;
+  border-bottom: 4px solid #221e45;
+
+  }
+  .abas{
+   background-color: #a108dd;
+   padding: 40px;
+   text-align: center;
+   border-radius: 0 0 40px 40px;
+   
+  }
+  .tempo{
+   color:#c50505
+
+  }
+  .tempo-titulo{
+   font-size: 30px;
+
+  }
+  .textos.ativo{
+   display: block;
+
+
+  }
+  .textos{
+   display: none;
+
+  }
+  .contador{
+    display: flex;
+    justify-content: center;
+  }
+ 
+   @media screen and (min-width: 798px){
+  .botoes{
+      display: flex;
+
+  }
+   .botao:first-child{
+     border-radius: 40px 0 0 0;
+
+   }
+.botao:last-child{
+     border-radius: 0 40px 0 0;
+}
+
+}
